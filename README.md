@@ -49,6 +49,6 @@ If ur browser just shows **UNSAFE** forever and dosent stop just go to the **Tas
 Spotiled is made with **love**
 
 Credit
-Spotiled is made By **Space Space**
+Spotiled is made By **Chaw_Chaw**
 
 Discord: **@chaw_chawyt** (Contact if u got **Bugs**, **issues** in the **code** or **questions**)
