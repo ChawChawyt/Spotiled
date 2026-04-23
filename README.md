@@ -13,7 +13,7 @@ SETUP:
 -2 make **OpenRGB SDK server "Online"** by pressing the start server each time closing and opening openrgb the server should be as(server HOST: 0.0.0.0  server Port: 6742) or **making it auto start on windows**
 
 | -2 how to turn on auto start server and Openrgb > open OpenRGB and click on **settings tab** scroll all the way down until u see (**Start at Login**) Check it (**Set it to YES**) and Check Start server Thats it for OpenRGB
--3 **Open spotify Devoloper** https://developer.spotify.com/
+-3 **Open spotify Developers** https://developer.spotify.com/
 
 -4 **Sign in**
 
@@ -26,13 +26,13 @@ SETUP:
 -8 **Verify ur email address** if u didnt (**REQUIRED**) (click on verify open ur gmail and open the latest spotify verify email and then click on **VERIFY** it will take u to an website says "You're all set." then get back to the dashboard tab and **refresh it**)
 -9 Click on **Create app**
 
--10 write ur **app name** (Ex. Spotiled api)
+-10 write ur **app name** (Ex. Spotted bee)
 
 -11 Write any **description** (Ex. app takes my music to a led)
 
 -12 **Redirect URL** (Ex. http://127.0.0.1:8000/callback) (Documentation. https://developer.spotify.com/documentation/web-api/concepts/redirect_uri)
 
--13 check **Web Apis** (if its blacked out for u just select anything then save and edit it again it will be **showen**)
+-13 check **Web Apis** (if its blacked out for u just select anything then save and edit it again it will be **the show**)
 
 -14 get ur **Client id** and **client secret** put them in  the **.env file** (if secret dosent show click on **Show Client secret**)
 
@@ -49,5 +49,6 @@ If ur browser just shows **UNSAFE** forever and dosent stop just go to the **Tas
 Spotiled is made with **love**
 
 Credit
-Spotiled is made By **Chaw Chaw**
+Spotiled is made By **Space Space**
+
 Discord: **@chaw_chawyt** (Contact if u got **Bugs**, **issues** in the **code** or **questions**)
