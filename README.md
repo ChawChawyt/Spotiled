@@ -18,18 +18,18 @@ For example, if you are playing music with a green cover art, that color will be
  11. write ur **app name** (Ex. Spotted bee)
  12. Write any **description** (Ex. app takes my music to a led)
  13. **Redirect URL** (Ex. http://127.0.0.1:8000/callback) (Documentation. https://developer.spotify.com/documentation/web-api/concepts/redirect_uri)
- 14. check **Web Apis** (if its blacked out for u just select anything then save and edit it again it will be **the show**)  
+ 14. check **Web Apis** (if its blacked out for u just select anything then save and edit it again it will be **showen**)  
  15. get ur **Client id** and **client secret** put them in  the **.env file** (if secret dosent show click on **Show Client secret**)  
  16. **Enjoy ur spotiled**
 
-If your api dosent work and you ran the code it will output  **UNSAFE** . This means the api entered in the code is diffrent from the one on your account.    
+If your api dosent work and you ran the code it will output  **UNSAFE** . This means the api entered in the code is diffrent from the one on your account. 
+If your browser just shows **UNSAFE** forever and dosent stop, just go to **Task manager** (**Ctrl + shift + esc**) and search for Spotiled and click on **End task** it will stop.  
+To fix it and make it actually work **make sure ur api is right**  
 Use this -> https://developer.spotify.com/documentation/web-api  | to learn how to get your api key  
 
 
 
 Consider Reading the rest of the MD files located in the README directory.  
-If your browser just shows **UNSAFE** forever and dosent stop, just go to **Task manager** (**Ctrl + shift + esc**) and search for Spotiled and click on **End task** it will stop.  
-To fix it and make it actually work **make sure ur api is right**  
 
 Made with **love** by **Chaw_Chaw**    
 Discord: **@chaw_chawyt** (Contact for: **Bugs**, **issues**, or **questions**)  
