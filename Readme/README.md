@@ -1,40 +1,31 @@
-Hello
-
-are u searching for a visualizer that makes ur music ur listening to on spotify be the color of visualizer on ur tech  
-
-Spotiled is an app that uses ur Spotify Premium api and uses it as a color for the visualizer for ur mouse,keyboard,pc,motherboard,etc
-if u dont have spotify premium the app wont work (u need spotify premium to get api)
-
-if ur playing a music with black banner that will be the visualizer color (if it cant reach ur api it will be solid white)
+Hey, are you searching for a spotify music visualizer?
+Then check out Spotiled!
+Spotiled is an app that uses the Spotify Premium api and uses it as a color for the visualizer for your rgb periperals
+For example, if you are playing music with a green cover art, that color will be set as the audio color, HOWEVER if Spotiled cant reach the api the color will remain solid white.
 
 SETUP:
--1 Install OpenRGB 
--2 make OpenRGB SDK server "Online" by pressing the start server each time closing and opening openrgb the server should be as(server HOST: 0.0.0.0  server Port: 6742) or making it auto start on windows
-| -2 how to turn on auto start server and Openrgb > open OpenRGB and click on settings tab scroll all the way down until u see (Start at Login) Check it (Set it to YES) and Check Start server Thats it for OpenRGB
--3 Open spotify Devoloper https://developer.spotify.com/ 
--4 Sign in 
--5 Click on ur name then click on Dashboard
--6 Check "I accept the Spotify Developer Terms of Service."
--7 Click OK 
--8 Verify ur email address if u didnt (REQUIRED) (click on verify open ur gmail and open the latest spotify verify email and then click on VERIFY it will take u to an website says "You're all set." then get back to the dashboard tab and refresh it)
--9 Click on Create app 
--10 write ur app name (Ex. Spotiled api)
--11 Write any description (Ex. app takes my music to a led)
--12 Redirect URL (Ex. http://127.0.0.1:8000/callback) (Documentation. https://developer.spotify.com/documentation/web-api/concepts/redirect_uri)
--13 check Web Apis (if its blacked out for u just select anything then save and edit it again it will be showen)
--14 get ur Client id and client secret put them in  the .env file (if secret dosent show click on Show Client secret)
--15 Enjoy ur spotiled
+Install OpenRGB
+make OpenRGB SDK server "Online" by pressing the start server each time closing and opening openrgb the server should be as(server HOST: 0.0.0.0 server Port: 6742) or making it auto start on windows
+turn on auto start server and Openrgb > open OpenRGB and click on settings tab scroll all the way down until u see (Start at Login) Check it (Set it to YES) and Check Start server Thats it for OpenRGB
+Open spotify Developers https://developer.spotify.com/
+Sign in
+Click on ur name then click on Dashboard
+Check "I accept the Spotify Developer Terms of Service."
+Click OK
+Verify ur email address if u didnt (REQUIRED) (click on verify open ur gmail and open the latest spotify verify email and then click on VERIFY it will take u to an website says "You're all set." then get back to the dashboard tab and refresh it)
+Click on Create app
+write ur app name (Ex. Spotted bee)
+Write any description (Ex. app takes my music to a led)
+Redirect URL (Ex. http://127.0.0.1:8000/callback) (Documentation. https://developer.spotify.com/documentation/web-api/concepts/redirect_uri)
+check Web Apis (if its blacked out for u just select anything then save and edit it again it will be showen)
+get ur Client id and client secret put them in the .env file (if secret dosent show click on Show Client secret)
+Enjoy ur spotiled
+If your api dosent work and you ran the code it will output UNSAFE . This means the api entered in the code is diffrent from the one on your account. If your browser just shows UNSAFE forever and dosent stop, just go to Task manager (Ctrl + shift + esc) and search for Spotiled and click on End task it will stop.
+To fix it and make it actually work make sure ur api is right
+Use this -> https://developer.spotify.com/documentation/web-api | to learn how to get your api key
 
-If ur api dosent work and u runned the code it will say  UNSAFE it means the api entered in code is diffrent from the real one of ur account 
-or use this documentation of how to get api: https://developer.spotify.com/documentation/web-api
+Consider Reading the rest of the MD files located in the README directory.
 
-
-
-Consider Reading the Others .mds file it might help u
-If ur browser just shows UNSAFE forever and dosent stop just go to the Task manager (Ctrl + shift + esc) and search for Spotiled and click on End task it will stop To fix it and make it actually work make sure ur api is right
-
-Spotiled is made with love
-
-Credit
-Spotiled is made By Chaw Chaw
-Discord: @chaw_chawyt (Contact if u got Bugs, issues in the code or questions)
+Made with love by Chaw_Chaw
+Discord: @chaw_chawyt (Contact for: Bugs, issues, or questions)
+Speacial Thanks to @bkgrnd for making this Readme!
