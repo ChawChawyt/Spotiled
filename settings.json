@@ -1,0 +1,27 @@
+{
+  "device_index": 0,
+
+  "audio": {
+    "sample_rate": 44100,
+    "chunk_size": 1024,
+
+    "beat_multiplier": 1.0,
+    "beat_history_len": 120,
+
+    "attack_coeff": 1.0,
+    "decay_coeff": 1.0,
+    "beat_boost": 1.0,
+
+    "bass_weight": 0.6,
+    "mid_weight": 0.2,
+    "high_weight": 0.1,
+
+    "bass_range": [20, 250],
+    "mid_range": [250, 4000],
+    "high_range": [4000, 16000]
+  },
+
+  "rgb": {
+    "color_lerp_speed": 0.1
+  }
+}
